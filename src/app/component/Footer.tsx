@@ -40,7 +40,7 @@ const ContactUs = () => {
                    */}
                    Telefonnummer
                   </p>
-                <p className="text-gray-300">0176 236 911 14</p>
+                
                 <p className="text-gray-300">017624194649</p>
               </div>
             </div>

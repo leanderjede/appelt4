@@ -381,7 +381,7 @@ const Navbar = () => {
               href="/job"
               className="block text-black hover:bg-white/20 px-3 py-2 rounded-md text-base font-medium"
             >
-              Arbeit
+              Jobangebote
             </Link>
             <Link
               href="/imprint"
