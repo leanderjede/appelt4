@@ -28,7 +28,10 @@ const ContactUs = () => {
                 
                   Unsere E -Mail
                   </p>
-                <p className="text-gray-300">appeltbauservice@gmail.com</p>
+                  <a href="mailto:appeltbauservice@gmail.com" className="text-gray-300">
+  appeltbauservice@gmail.com
+</a>
+
               </div>
             </div>
 
@@ -41,7 +44,10 @@ const ContactUs = () => {
                    Telefonnummer
                   </p>
                 
-                <p className="text-gray-300">017624194649</p>
+                  <a href="tel:017624194649" className="text-gray-300">
+  0176 24194649
+</a>
+
               </div>
             </div>
 
@@ -113,7 +119,7 @@ const ContactUs = () => {
       {/* Footer */}
       <div className="text-center text-sm text-gray-400 mt-10">
        
-        Copyrights © 2024 - Alle Rechte vorbehalten | <span className = "unterstreichen"><Link href="/impressum">
+        Copyrights © 2025 - Alle Rechte vorbehalten | <span className = "unterstreichen"><Link href="/impressum">
          Impressum
         </Link>
           </span> | {""}

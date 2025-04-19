@@ -37,7 +37,7 @@ Karlstrasse 5
             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
             E-MAIL
             </h2>
-            <a className="text-[#f8f5f0]0 leading-relaxed">appeltbauservice@gmail.com
+            <a className="text-[#f8f5f0]0 leading-relaxed" href="mailto:appeltbauservice@gmail.com">appeltbauservice@gmail.com
 
 </a>
             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
@@ -54,10 +54,10 @@ Karlstrasse 5
       <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
         <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
           
-          Rückmeldung
+          Kontakt aufnehmen
         </h2>
         <p className="leading-relaxed mb-5 text-gray-600">
-          Bitte lassen Sie uns wissen, was Sie in Ihrem Kopf sind
+        
         </p>
         <div className="relative mb-4">
           <label htmlFor="name" className="leading-7 text-sm text-gray-600">
@@ -93,12 +93,9 @@ Karlstrasse 5
           />
         </div>
         <button className="text-white bg-[#473a22]  border-0 py-2 px-6 focus:outline-none hover:bg-[#8e7444] rounded text-lg">
-        einreichen
+        Senden
         </button>
-        <p className="text-xs text-gray-500 mt-3">
-          Chicharrones blog helvetica normcore iceland tousled brook viral
-          artisan.
-        </p>
+        
       </div>
     </div>
   </section>

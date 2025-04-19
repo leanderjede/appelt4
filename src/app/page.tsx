@@ -438,7 +438,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <div className="bg-wood-200 px-2 py-10 bg-cover bg-center rounded-lg overflow-hidden" style={{ backgroundImage: "url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?cs=srgb&dl=pexels-pixabay-326333.jpg&fm=jpg')" }}>
+      <div className="bg-wood-200 px-2 py-10 bg-cover bg-center rounded-lg overflow-hidden" style={{ backgroundImage: "url('https://img.freepik.com/fotos-kostenlos/heller-holzboden_53876-92981.jpg?t=st=1745090154~exp=1745093754~hmac=4790ac17a1c0b58e2301a9126788ec3aafe61fe2938b1050dd6448b9c65196ea&w=996')" }}>
         <div id="features" className="mx-auto max-w-6xl">
           <motion.div
             initial="hidden"
@@ -450,15 +450,16 @@ export default function Home() {
               className="text-center text-base font-semibold leading-7 text-white"
               variants={fadeIn}
             >
-              Merkmale
+        
             </motion.p>
             
-            <motion.h2 
-              className="text-center font-display text-3xl font-bold tracking-tight text-white md:text-4xl"
-              variants={slideInFromRight}
-            >
-              Das Schreiben war noch nie so einfach
-            </motion.h2>
+            <motion.h2
+  className="text-center font-display text-3xl font-bold tracking-tight text-black md:text-4xl"
+  variants={slideInFromRight}
+>
+  Alles aus einer Hand
+</motion.h2>
+
             
             <motion.ul 
               className="mt-16 grid grid-cols-1 gap-6 text-center md:grid-cols-2 xl:grid-cols-3"

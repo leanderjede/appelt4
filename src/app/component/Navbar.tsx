@@ -223,11 +223,10 @@ const Navbar = () => {
 
   return (
     <nav
-      id="navbar"
-      className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-[#f8f5f0] shadow-md" : "bg-white/10 backdrop-blur-md"
-      }`}
-    >
+  id="navbar"
+  className="fixed w-full z-50 bg-white shadow-md transition-all duration-300"
+>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20">
           {/* Logo */}
